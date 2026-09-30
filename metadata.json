@@ -1,0 +1,6 @@
+{
+  "name": "Subway Surfers Web - 3D Endless Runner",
+  "description": "An authentic 3D Subway Surfers clone featuring 3-lane running, trains, hurdles, hoverboards, jetpacks, magnets, missions, and graffiti subway tracks.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

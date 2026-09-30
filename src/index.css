@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-titan {
+    font-family: 'Titan One', cursive, system-ui, sans-serif;
+  }
+  .font-fredoka {
+    font-family: 'Fredoka', cursive, sans-serif;
+  }
+  .font-bungee {
+    font-family: 'Bungee', cursive, sans-serif;
+  }
+  .text-stroke-sm {
+    -webkit-text-stroke: 1px #000;
+  }
+  .text-stroke-md {
+    -webkit-text-stroke: 2px #000;
+  }
+  .text-stroke-lg {
+    -webkit-text-stroke: 3px #000;
+  }
+  .text-shadow-subway {
+    text-shadow: 0 4px 0 #b45309, 0 6px 0 #000, 0 8px 12px rgba(0,0,0,0.6);
+  }
+  .text-shadow-blue {
+    text-shadow: 0 4px 0 #1d4ed8, 0 6px 0 #000, 0 8px 12px rgba(0,0,0,0.6);
+  }
+  .text-shadow-red {
+    text-shadow: 0 4px 0 #b91c1c, 0 6px 0 #000, 0 8px 12px rgba(0,0,0,0.6);
+  }
+  .text-shadow-green {
+    text-shadow: 0 4px 0 #15803d, 0 6px 0 #000, 0 8px 12px rgba(0,0,0,0.6);
+  }
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: none;
+}
